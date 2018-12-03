@@ -1,0 +1,40 @@
+{
+  "name": "am0nshi/aftership",
+  "description": "A PHP library for https://aftership.com.ua",
+  "keywords": [
+    "aftership", "tracking", "novaposhta", "ukrposhta", "delivery"
+  ],
+  "homepage": "https://github.com/am0nshi/diffbot_client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mykyta Halaiev",
+      "email": "galaevnik@yandex.ru",
+      "homepage": "http://bitfalls.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=5.5.0",
+    "guzzlehttp/guzzle" : "^6.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "am0nshi\\aftership\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "am0nshi\\aftership\\Test\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
